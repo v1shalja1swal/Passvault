@@ -1,0 +1,55 @@
+.mainContainer {
+    /* background-color: #9ba9eb; */
+    background: linear-gradient(110deg, #9ba9eb 60%, #317773 60%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.underMainContainer {
+    border: 2px solid;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 20px 5px;
+    margin-top: 12%;
+    box-shadow: 0 0 5px 5px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.peerOneId {
+    padding: 10px;
+    border: 2px solid;
+    box-shadow: 2px 1px 6px;
+}
+
+.peerOneId::placeholder {
+    font-family: 'Courier New', monospace
+}
+.sendDataBtn {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+    width: fit-content;
+    height: 3rem;
+    margin-top: 15px;
+    font-family: 'Courier New', monospace
+}
+
+.sendDataBtn:hover {
+    border: 2px solid;
+    box-shadow: 2px 1px 6px;
+
+}

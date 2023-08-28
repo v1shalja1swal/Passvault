@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import Home from './Components/Home'
+import MasterPassword from './Components/MasterPassword'
+import Peer1 from './Components/WebRTC/Peer1'
+import Peer2 from './Components/WebRTC/Peer2'
+import Try from './Main'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Home /> */}
+      <MasterPassword />
+      {/* <Try /> */}
+      {/* <Peer1 />
+      <Peer2 /> */}
+    </>
+  )
 }
 
-export default App;
+export default App
